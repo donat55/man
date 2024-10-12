@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Create Your Character</h1>
+    <canvas id="canvas" width="300" height="300"></canvas>
+
+    <div>
+        <label for="bodyType">Body Type:</label>
+        <select id="bodyType">
+            <option value="slim">Slim</option>
+            <option value="average">Average</option>
+            <option value="muscular">Muscular</option>
+        </select>
+
+        <label for="outfit">Outfit:</label>
+        <select id="outfit">
+            <option value="casual">Casual</option>
+            <option value="sport">Sport</option>
+            <option value="formal">Formal</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="cyberpunk">Cyberpunk</option>
+        </select>
+        
+        <label for="pet">Pet:</label>
+        <select id="pet">
+            <option value="none">None</option>
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+            <option value="bird">Bird</option>
+        </select>
+    </div>
+
+    <button id="saveButton">Save as Image</button>
+    <script src="script.js"></script>
+</body>
+</html>
